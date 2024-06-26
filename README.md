@@ -1,4 +1,4 @@
-# Magento 2 Developer Module 🚀
+# Magento 2 Developer Module 
 
 ## Overview
 
