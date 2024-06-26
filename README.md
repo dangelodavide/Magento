@@ -27,19 +27,14 @@ To install the Magento 2 Developer Module, follow these steps:
     cd /path/to/magento/root
     ```
 
-3. **Install via Composer**:
+3. **Enable the Modules**:
     ```bash
-    composer require dangelodavide/magento
-    ```
-
-4. **Enable the Modules**:
-    ```bash
-    bin/magento module:enable Dangelo_CodeGenerator
-    bin/magento module:enable Dangelo_DebugHelper
+    bin/magento module:enable Developer_Module
+    bin/magento module:enable Developer_Module2
     bin/magento setup:upgrade
     ```
 
-5. **Clear Cache**:
+4. **Clear Cache**:
     ```bash
     bin/magento cache:clean
     ```
